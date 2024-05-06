@@ -42,7 +42,6 @@ func part2(line string) int {
 	for word, digit := range numbers {
 		line = strings.ReplaceAll(line, word, digit)
 	}
-	fmt.Println(part1(line))
 	return part1(line)
 }
 
